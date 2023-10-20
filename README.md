@@ -1,5 +1,4 @@
-# -
-Python实现伪造图片的检测和伪造区域的定位，Vue封装在网页端提供用户上传图片的接口。
+# Python实现伪造图片的检测和伪造区域的定位，Vue封装在网页端提供用户上传图片的接口。
 相关文件说明如下：
 1.detect文件夹：包含用于真伪图像二分类检测的训练测试代码，生成的预训练模型保存在new_model_casia.h5中。
 2.locate_model文件夹：包含两个不同的图像定位模型，训练代码在mvssnet.py和resfcn.py文件中，生成的预训练模型保存在mvssnet_casia.pt和resfcn_casia.pt中。
